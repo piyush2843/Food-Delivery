@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { assets } from "../assets/assets";
 import { Link, useNavigate } from "react-router-dom";
 import { StoreContext } from "../Context/StoreContext";
-import "./NavBar.css"
+import "./Navbar.css"
 
 const NavBar = ({ setShowLogin,token,setToken }) => {
   const [menu, setMenu] = useState("Menu");
