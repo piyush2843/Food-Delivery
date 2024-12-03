@@ -40,7 +40,6 @@ const LogInPopUp = ({ setShowLogin,setToken }) => {
             alert(response.data.message);
           }
         } catch (error) {
-          console.error("Error during login:", error);
           alert("Something went wrong. Please try again later.");
         }
   }
