@@ -10,7 +10,7 @@ const LogInPopUp = ({ setShowLogin,setToken }) => {
     email:"",
     password:"",
   });
-  const url = "http://localhost:4000";
+  const url = "https://food-delivery-backend-ujve.onrender.com";
 
   
   const onChangeHandler = (event)=>{
