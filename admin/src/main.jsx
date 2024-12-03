@@ -7,7 +7,7 @@ import Add from "./pages/Add";
 import Orders from "./pages/Orders.jsx";
 import List from './pages/List';
 
-const url = "http://localhost:4000";
+const url = "https://food-delivery-backend-ujve.onrender.com";
 
 const appRouter = createBrowserRouter([
   {
