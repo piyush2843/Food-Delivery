@@ -23,9 +23,9 @@ const LogInPopUp = ({ setShowLogin,setToken }) => {
         event.preventDefault()
         let newUrl = "";
         if(currState==="Login"){
-          newUrl += url+"/api/user/login";
+          newUrl += "https://food-delivery-backend-ujve.onrender.com/api/user/login";
         }else{
-          newUrl += url+"/api/user/register";
+          newUrl += "https://food-delivery-backend-ujve.onrender.com/api/user/register";
         }
 
         try {
